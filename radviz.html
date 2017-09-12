@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--scripts-->
+    <script src="radviz.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script> 
+<style>
+
+path{
+    stroke: #ccc;
+    stroke-width: 2;
+    fill: none;
+}
+
+.container svg{
+  margin-left: -150px;
+  margin-top: -40px;
+  fill: none
+}
+
+svg .bg{
+  fill: none
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+#legendContainer{
+  position:absolute;
+  top:70px;
+  left:90px;
+  overflow: auto;
+  height:490px;
+  width:110px;
+}
+
+#legend{
+  width:90px;
+  height:200px;
+}
+.legend {
+    font-size: 12px;
+    font-weight: normal;
+    text-anchor: left;
+    padding-bottom: 10px;
+}
+.legendcheckbox{
+  cursor: pointer;
+}
+#showAll{
+  
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 70px;
+  margin-left: 10px;
+}
+#clearAll{
+  
+  float:right;
+
+}
+input{
+  border-radius:5px;
+  padding:5px 10px;
+  background:#999;
+  border:0;
+  color:#fff;
+}
+#inds{
+  position:absolute;
+  top:10px;
+  left:80px;
+}
+
+.chart{
+  top: 500px;
+}
+
+.item {
+    border: 2px solid white;
+    background-color: skyblue;
+    opacity: 0.8;
+    overflow: visible;
+    padding: 6px 0;
+    white-space: nowrap;
+}
+
+.list-container {
+    padding-top: 50px;
+}
+.state {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+path {
+    stroke: #ccc;
+    stroke-width: 2;
+    fill: none;
+}
+
+
+#diabeteslegendContainer{
+  position:absolute;
+  top:70px;
+  left:90px;
+  overflow: auto;
+  height:490px;
+  width:110px;
+}
+#diabeteslegend{
+  width:90px;
+  height:200px;
+}
+.diabeteslegend {
+    font-size: 12px;
+    font-weight: normal;
+    text-anchor: left;
+}
+.diabeteslegendcheckbox{
+  cursor: pointer;
+}
+#diabetesshowAll{
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 85px;
+  margin-left: 10px;
+}
+#diabetesclearAll{
+  float: right;
+}
+input{
+  border-radius:5px;
+  padding:5px 10px;
+  background:#999;
+  border:0;
+  color:#fff;
+}
+#diabetesinds{
+  float: left;
+  margin-left: 350px;
+  margin-top: 10px;
+
+}
+
+#RBPinds{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+</style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+  <!--navigation bar-->
+    <nav class="navbar navbar-inverse bg-primary text-lg-center">
+      <a class="navbar-brand" href="#">NCD-RisC RadViz Visualization</a>
+    </nav>
+
+    <div style="padding-top: 25px;" class="container-fluid">
+
+    <div class="row">
+        <!--left content-->
+        <div class="col-md-3">
+            <form class="form-group">
+              <h6 style="padding-bottom: 10px; margin-bottom: 10px" class="font-weight-bold">Region</h6>
+
+<!--drop down NA-->
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#north-america">North America<!--<input style="margin-left: 5px; " type="checkbox"  class="Region"  id="CLA" name="CLA" value="Region" >--></a><br>
+</p>
+    <div class="collapse" id="north-america">
+        <div class="card card-block">
+                      <p>United States of America <input type="checkbox" class="Country" name="NA" id="NA" value="United States of America" checked></p>
+                      <p>Canada&nbsp;<input type="checkbox" class="Country" name="NA" id="NA" value="Canada" checked></p>
+    </div>
+</div>
+
+<!--drop down for CLA-->
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-warning" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Central Latin America <!--<input style="margin-left: 5px; " type="checkbox"  class="Region"  id="CLA" name="CLA" value="Region">--> </a><br>
+</p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-block">
+              <p>Mexico <input type="checkbox"  class="Country"  id="CLA" name="CLA" value="Mexico" checked></p>
+              <p>Costa Rica <input type="checkbox"  class="Country"  id="CLA" name="CLA" value="Costa Rica" checked></p>
+    </div>
+</div>
+
+
+<!--drop down for Carribbean--> 
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-info" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#Carribbean">Carribbean <!--<input style="margin-left: 5px; " type="checkbox"  class="Region"  id="CLA" name="CLA" value="Region">--> </a><br>
+</p>
+    <div class="collapse" id="Carribbean">
+      <div class="card card-block">
+                    <p>Bermuda <input type="checkbox" class="Country"  id="CC" name="CC" value="Bermuda" checked></p>
+                    <p>Puerto Rico <input type="checkbox" class="Country"  id="CC" name="CC" value="Bermuda" checked></p>
+    </div>
+</div>
+
+
+
+<!--drop down for Andean Latin Amaerica-->
+<p style="margin-bottom:10px; ">
+  <a style="margin-bottom:5px;" class="btn btn-danger" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#andean-latin-america">Andean Latin America <!--<input style="margin-left: 5px; " type="checkbox"  class="Region"  id="CLA" name="CLA" value="Region" >--></a><br>
+</p>
+    <div class="collapse" id="andean-latin-america">
+      <div class="card card-block">
+              <p>Venezuela <input type="checkbox"  class="Country" id="ALA" name="ALA" value="Venezuela" checked></p>
+              <p>Colombia <input type="checkbox"  class="Country" id="ALA" name="ALA" value="Colombia" checked></p>
+    </div>
+</div>
+
+<!--drop down for southern latin america-->
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-success" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#southern-latin-america">Southern Latin America <!--<input style="margin-left: 5px; " type="checkbox"  class="Region"  id="CLA" name="CLA" value="Region" >--> </a><br>
+</p>
+    <div class="collapse" id="southern-latin-america">
+      <div style="margin-bottom: 10px;" class="card card-block">
+              <p>Argentina <input type="checkbox" class="Country" id="ALA" name="SLA" value="Argentina" checked></p>
+              <p>Uruguay <input type="checkbox" class="Country" id="ALA" name="SLA" value="Uruguay" checked></p>
+    </div>
+</div>
+              
+            </form>
+        </div>
+
+        <!--middle content-->
+        <div class="col-md-6 text-center">
+
+
+              <!--radviz vis-->
+              <div class="container">
+              </div>
+
+            <!--buttons-->
+          <div class="btn-group text-center">
+             <div class="btn-group" role="group">
+              <button style="margin-right: 10px; margin-left: -120px; " type="button" onclick='allFilter()' class="btn btn-success">Apply</button>
+        <button type="button" onclick='clearVis()' class="btn btn-danger">Reset</button>
+      </div>  
+       </div> 
+                
+          </div>
+        
+
+        <!--right content-->
+        <div style="float:right;" class="col-md-3">
+          <form class="form-group">
+              <h6 style="padding-bottom: 10px;" class="font-weight-bold">Year</h6>
+
+<!--80s decade-->
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-info" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#firstdecade">
+    80's</a><br>
+</p>
+    <div class="collapse" id="firstdecade">
+      <div style="margin-bottom: 10px;" class="card card-block">
+        <p>1980 <input type="checkbox" name="year" value="1980" class="Year" checked></p>
+        <p>1981 <input type="checkbox" name="year" value="1981" class="Year" checked></p>
+        <p>1982 <input type="checkbox" name="year" value="1982" class="Year" checked></p>
+        <p>1983 <input type="checkbox" name="year" value="1983" class="Year" checked></p>
+        <p>1984 <input type="checkbox" name="year" value="1984" class="Year" checked></p>
+        <p>1985 <input type="checkbox" name="year" value="1985" class="Year" checked></p>
+         <p>1984 <input type="checkbox" name="year" value="1984" class="Year" checked></p>
+         <p>1985 <input type="checkbox" name="year" value="1985" class="Year" checked></p>
+         <p>1986 <input type="checkbox" name="year" value="1986" class="Year" checked></p>
+         <p>1987 <input type="checkbox" name="year" value="1987" class="Year" checked></p> 
+         <p>1988 <input type="checkbox" name="year" value="1988" class="Year" checked></p>
+         <p>1989 <input type="checkbox" name="year" value="1989" class="Year" checked></p>
+      </div>
+</div>
+
+
+<!--90s decade-->
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-info" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#seconddecade">
+    90's</a><br>
+</p>
+    <div class="collapse" id="seconddecade">
+      <div style="margin-bottom: 10px;" class="card card-block">
+       <p>1990 <input type="checkbox" name="year" value="1990" class="Year" checked></p>
+       <p>1991 <input type="checkbox" name="year" value="1991" class="Year" checked></p>
+       <p>1992 <input type="checkbox" name="year" value="1992" class="Year" checked></p>
+       <p>1993 <input type="checkbox" name="year" value="1993" class="Year" checked></p> 
+       <p>1994 <input type="checkbox" name="year" value="1994" class="Year" checked></p>
+       <p>1995 <input type="checkbox" name="year" value="1995" class="Year" checked></p>
+       <p>1996 <input type="checkbox" name="year" value="1996" class="Year" checked></p>
+       <p>1997 <input type="checkbox" name="year" value="1997" class="Year" checked></p>
+       <p>1998 <input type="checkbox" name="year" value="1998" class="Year" checked></p>
+       <p>1999 <input type="checkbox" name="year" value="1999" class="Year" checked></p>
+    </div>
+</div>
+
+
+
+<!--00s decade-->
+<p>
+  <a style="margin-bottom:5px;" class="btn btn-info" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-target="#thirddecade">
+    00's </a><br>
+</p>
+    <div class="collapse" id="thirddecade">
+      <div style="margin-bottom: 10px;" class="card card-block">
+       <p>2000 <input type="checkbox" name="year" value="2000" class="Year" checked></p>
+       <p>2001 <input type="checkbox" name="year" value="2001" class="Year" checked></p>
+       <p>2002 <input type="checkbox" name="year" value="2002" class="Year" checked></p>
+       <p>2003 <input type="checkbox" name="year" value="2003" class="Year" checked></p>
+       <p>2004 <input type="checkbox" name="year" value="2004" class="Year" checked></p>
+       <p>2005 <input type="checkbox" name="year" value="2005" class="Year" checked></p>
+       <p>2006 <input type="checkbox" name="year" value="2006" class="Year" checked></p>
+       <p>2007 <input type="checkbox" name="year" value="2007" class="Year" checked></p>
+       <p>2008 <input type="checkbox" name="year" value="2008" class="Year" checked></p>
+       <p>2009 <input type="checkbox" name="year" value="2009" class="Year" checked></p>
+       <p>2010 <input type="checkbox" name="year" value="2010" class="Year" checked></p>
+       <p>2011 <input type="checkbox" name="year" value="2011" class="Year" checked></p>
+       <p>2012 <input type="checkbox" name="year" value="2011" class="Year" checked></p>
+       <p>2013 <input type="checkbox" name="year" value="2013" class="Year" checked></p>
+       <p>2014 <input type="checkbox" name="year" value="2014" class="Year" checked></p>
+    </div>
+</div>
+               
+    </form>
+
+          <!--gender filter-->
+          <form style="padding-top: 20px;" class="form-group">
+            <h6 style="padding-bottom: 5px;" class="font-weight-bold">Gender</h6>
+            <table class="table">
+              <tr>
+                <td>
+                    <p>Male <input type="checkbox" id="maleCheck" class="Gender" name="Male" value="Male" checked></p>
+                    </td>
+                    <td>
+                       <p>Female <input type="checkbox" name="Female" class="Gender" id="femaleCheck" value="Female" checked></p>
+                    </td>
+              </tr>
+            </table>
+          </form>
+          <!--radviz legend-->
+          <div class="list-container">
+                <div class="state"></div>
+                <div class="year"></div>
+                <div class="sex"></div>
+          <div class="list"></div>
+
+        </div>
+    </div>
+  </div>
+
+<div  style="padding-top: 50px;" sclass="container-fluid">
+    <div class="row">
+    <!--second row left column line chart for diabetes-->
+  <div class="col-md-12">
+    <select style="" id="inds"> 
+        <option value="None" selected="selected">(Obesity) Select Region</option>
+        <option value="North America">(Obesity) North America</option>
+        <option value="Central Latin America">(Obesity) Central Latin America</option>
+        <option value="Caribbean">(Obesity) Carribbean</option>
+        <option value="Andean Latin America">(Obesity) Andean Latin America</option>
+        <option value="Southern Latin America">(Obesity) Southern Latin America</option>
+    </select>  
+
+    <select id="diabetesinds">
+        <option value="None" selected='selected'>(Diabetes) Select Region</option>
+        <option value="North America">(Diabetes) North America</option>
+        <option value="Central Latin America">(Diabetes) Central Latin America</option>
+        <option value="Caribbean">(Diabetes) Carribbean</option>
+        <option value="Andean Latin America">(Diabetes) Andean Latin America</option>
+        <option value="Southern Latin America">(Diabetes) Southern Latin America</option>
+  </select>
+
+      <select id="RBPinds">
+        <option value="None" selected='selected'>(Raised Blood Pressure) Select Region</option>
+        <option value="North America">(Raised Blood Pressure) North America</option>
+        <option value="Central Latin America">(Raised Blood Pressure) Central Latin America</option>
+        <option value="Caribbean">(Raised Blood Pressure) Carribbean</option>
+        <option value="Andean Latin America">( Blood Pressure) Andean Latin America</option>
+        <option value="Southern Latin America">( Raised Blood Pressure) Southern Latin America</option>
+  </select>
+
+    <div style="padding-bottom: 10px;" id="legendContainer" class="legendContainer">
+          <svg id="legend"></svg>
+    </div>
+      <div style="margin-top: 100px;" class="chart"> 
+    </div>
+
+    <div id="showAll">
+        <input name="showAllButton"
+         type="button"
+         value="Show All"
+         onclick="showAll()" />
+    </div>
+
+    <div id="clearAll">
+        <input name="clearAllButton"
+         type="button"
+         value="Clear All"
+         onclick="clearAll()" />
+    </div>
+    </div>
+  </div>
+</div>
+
+
+    <div  class="row">
+       <div class="col-md-12">  
+      </div>
+       </div>
+    </div>
+
+
+<!--radviz javascript implementation-->
+<script type="text/javascript"> 
+
+var dimensions = ['Diabetes', 'Raised BP', 'Obesity'];
+var radviz = radvizComponent()
+    .config({
+        el: document.querySelector('.container'),
+        colorAccessor: function(d) {
+            return d['Region'];
+        },
+        colorScale: d3.scale.ordinal().range([' #428bca','#f0ad4e','#5bc0de', '#d9534f', '#5cb85c']),
+        dimensions: dimensions,
+        size: 700,
+        margin: 80,
+        dotRadius: 2,
+        zoomFactor: 1,
+        drawLinks: false,
+        useRepulsion: false,
+        useTooltip: true,
+        tooltipFormatter: function(d) {
+                return '<h6>' +'&nbsp&nbsp&nbsp&nbsp'+ d.Country +'&nbsp&nbsp&nbsp&nbsp'+'</h6>' + 
+            dimensions.map(function(dB) {
+                    return;
+                }).join('<br />');
+        },
+
+    });
+
+
+radviz.on('dotEnter', function(d){
+    renderList(d);
+ 
+})
+
+var renderList = function(datum) {
+      d3.select('.state').text(datum.Country);
+      d3.select('.year').text(datum.Year);
+      d3.select('.sex').text(datum.Sex);
+
+      var list = d3.select('.list-container')
+          .selectAll('div.item')
+          .data(dimensions);
+      list.enter().append('div').classed('item', true);
+      list.transition().style({
+              width: function(d) {
+                  return datum[d] * 100 + 'px';
+              }
+          })
+          .text(function(d) {
+              return d + ': ' + d3.format('%')(datum[d]);
+          });
+      
+      list.exit().remove();
+}
+
+
+//data variable stores the csv file
+d3.csv("NCD_RisC_copy.csv", function(datum) {     
+    radviz.render(datum);  
+    //console.log(datum);
+});  
+
+
+function filterJSON(json, key, value) {
+  var result = [];
+  json.forEach(function(val,idx,arr){
+    if(val[key] == value){
+    
+      result.push(val)
+    }
+  })
+  return result;
+}
+
+
+function diabetesfilterJSON(json, key, value) {
+  var result = [];
+  json.forEach(function(val,idx,arr){
+    if(val[key] == value){
+    
+      result.push(val)
+    }
+  })
+  return result;
+}
+
+function bloodpressurefilterJSON(json, key, value) {
+  var result = [];
+  json.forEach(function(val,idx,arr){
+    if(val[key] == value){
+    
+      result.push(val)
+    }
+  })
+  return result;
+}
+
+
+
+//raised blood pressure line chart 
+//diabetes line chart
+// Set the dimensions of the canvas / graph
+var margin = {top: 50, right: 20, bottom: 30, left: 160},
+    width =  - margin.left - margin.right,
+    height =  - margin.top - margin.bottom;
+
+// Parse the date / time
+var parseDate = d3.time.format('%Y').parse;
+//var formatPercent = d3.format("%");
+
+// Set the ranges
+var x = d3.time.scale().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(5)
+    .tickFormat(d3.time.format("%Y"))
+
+var yAxis = d3.svg.axis().scale(y)
+    .orient("left").ticks(5);
+
+// Define the line
+var diabetesstateline = d3.svg.line()
+    .interpolate("linear")
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.total); });
+
+// Adds the svg canvas
+var chart1 = d3.select(".diabeteschart")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+//var diabetesdata;
+// Get the data
+d3.json("raisedbp.json", function(error, json) {
+  console.log(json)
+ 
+  json.forEach(function(d) {
+    d.total = +d.total;
+  });
+
+  d3.select('#RBPinds')
+      .on("change", function () {
+        var sect = document.getElementById("RBPinds");
+        var section = sect.options[sect.selectedIndex].value;
+
+        data = diabetesfilterJSON(json, 'region', section);
+
+        
+        //debugger
+        data.forEach(function(d) {
+          d.total = +d.total;
+          d.year = parseDate(d.year.toString());
+          d.active = true;
+        });
+        
+        
+        //debugger
+        updateGraph(data);
+
+
+        jQuery('h1.page-header').html(section);
+      });
+
+  // generate initial graph
+  data = diabetesfilterJSON(json, '', '');
+  updateGraph(data);
+
+});
+
+var color = d3.scale.ordinal().range(['#428bca','#f0ad4e','#5bc0de', '#d9534f', '#5cb85c']);
+
+function updateGraph(data) {
+    
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.year; }));
+    y.domain([d3.min(data, function(d) { return d.total; }), 
+    d3.max(data, function(d) { return d.total; })]);
+
+
+    // Nest the entries by state
+    dataNest = d3.nest()
+        .key(function(d) {return d.iso;})
+        .entries(data);
+
+
+    var result = dataNest.filter(function(val,idx, arr){
+          return $("." + val.key).attr("fill") != "#ccc" 
+          // matching the data with selector status
+        })
+        
+        
+    var state = chart1.selectAll(".line")
+      .data(result, function(d){return d.key});
+
+    state.enter().append("path")
+      .attr("class", "line");
+
+    state.transition()
+      .style("stroke", function(d,i) { return d.color = color(d.key); })
+      .attr("id", function(d){ return 'tag'+d.key.replace(/\s+/g, '');}) // assign ID
+      .attr("d", function(d){
+    
+        return diabetesstateline(d.values)
+      });
+
+    state.exit().remove();
+
+    var legend = d3.select("#RBPinds")
+      .selectAll("text")
+      .data(dataNest, function(d){return d.key});
+
+    //checkboxes
+    legend.enter().append("rect")
+      .attr("width", 10)
+      .attr("height", 10)
+      .attr("x", 0)
+      .attr("y", function (d, i) { return 0 +i*15; })  // spacing
+      .attr("fill",function(d) { 
+        return color(d.key);
+        
+      })
+      .attr("class", function(d,i){return "legendcheckbox " + d.key})
+      .on("click", function(d){
+        d.active = !d.active;
+        
+        d3.select(this).attr("fill", function(d){
+          if(d3.select(this).attr("fill")  == "#ccc"){
+            return color(d.key);
+          }else {
+            return "#ccc";
+          }
+        })
+        
+        
+       var result = dataNest.filter(function(val,idx, arr){
+         return $("." + val.key).attr("fill") != "#ccc" 
+       // matching the data with selector status
+      })
+      
+       // Hide or show the lines based on the ID
+       chart1.selectAll(".line").data(result, function(d){return d.key})
+         .enter()
+         .append("path")
+         .attr("class", "line")
+         .style("stroke", function(d,i) { return d.color = color(d.key); })
+        .attr("d", function(d){
+                return diabetesstateline(d.values);
+         });
+ 
+      chart1.selectAll(".line").data(result, function(d){return d.key}).exit().remove()  
+          
+      })
+            
+    // Add the Legend text
+    legend.enter().append("text")
+      .attr("x", 15)
+      .attr("y", function(d,i){return 10 +i*15;})
+      .attr("class", "legend");
+
+    legend.transition()
+      .style("fill", "#777" )
+      .text(function(d){return d.key;});
+
+    legend.exit().remove();
+
+    chart2.selectAll(".axis").remove();
+
+    // Add the X Axis
+    chart1.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    // Add the Y Axis
+    chart1.append("g")
+        .attr("class", "y axis")
+        .call(yAxis).text("Prevalence (%)");
+};
+
+function clearAll(){
+  d3.selectAll(".line")
+  .transition().duration(100)
+      .attr("d", function(d){
+        return null;
+      });
+  d3.select("#diabeteslegend").selectAll("rect")
+  .transition().duration(100)
+      .attr("fill", "#ccc");
+};
+
+function showAll(){
+  d3.selectAll(".line")
+  .transition().duration(100)
+      .attr("d", function(d){
+        return diabetesstateline(d.values);
+      });
+  d3.select("#RBPinds").selectAll("rect")
+  .attr("fill",function(d) {
+    if (d.active == true){
+       return color(d.key);
+     }
+   })
+};
+
+
+//diabetes line chart
+// Set the dimensions of the canvas / graph
+var margin = {top: 50, right: 20, bottom: 30, left: 160},
+    width =  - margin.left - margin.right,
+    height =  - margin.top - margin.bottom;
+
+// Parse the date / time
+var parseDate = d3.time.format('%Y').parse;
+//var formatPercent = d3.format("%");
+
+// Set the ranges
+var x = d3.time.scale().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(5)
+    .tickFormat(d3.time.format("%Y"))
+
+var yAxis = d3.svg.axis().scale(y)
+    .orient("left").ticks(5);
+
+// Define the line
+var diabetesstateline = d3.svg.line()
+    .interpolate("linear")
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.total); });
+
+// Adds the svg canvas
+var chart1 = d3.select(".diabeteschart")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+//var diabetesdata;
+// Get the data
+d3.json("diabetes.json", function(error, json) {
+  console.log(json)
+ 
+  json.forEach(function(d) {
+    d.total = +d.total;
+  });
+
+  d3.select('#diabetesinds')
+      .on("change", function () {
+        var sect = document.getElementById("diabetesinds");
+        var section = sect.options[sect.selectedIndex].value;
+
+        data = diabetesfilterJSON(json, 'region', section);
+
+        
+        //debugger
+        data.forEach(function(d) {
+          d.total = +d.total;
+          d.year = parseDate(d.year.toString());
+          d.active = true;
+        });
+        
+        
+        //debugger
+        updateGraph(data);
+
+
+        jQuery('h1.page-header').html(section);
+      });
+
+  // generate initial graph
+  data = diabetesfilterJSON(json, '', '');
+  updateGraph(data);
+
+});
+
+var color = d3.scale.ordinal().range(['#428bca','#f0ad4e','#5bc0de', '#d9534f', '#5cb85c']);
+
+function updateGraph(data) {
+    
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.year; }));
+    y.domain([d3.min(data, function(d) { return d.total; }), 
+    d3.max(data, function(d) { return d.total; })]);
+
+
+    // Nest the entries by state
+    dataNest = d3.nest()
+        .key(function(d) {return d.iso;})
+        .entries(data);
+
+
+    var result = dataNest.filter(function(val,idx, arr){
+          return $("." + val.key).attr("fill") != "#ccc" 
+          // matching the data with selector status
+        })
+        
+        
+    var state = chart1.selectAll(".line")
+      .data(result, function(d){return d.key});
+
+    state.enter().append("path")
+      .attr("class", "line");
+
+    state.transition()
+      .style("stroke", function(d,i) { return d.color = color(d.key); })
+      .attr("id", function(d){ return 'tag'+d.key.replace(/\s+/g, '');}) // assign ID
+      .attr("d", function(d){
+    
+        return diabetesstateline(d.values)
+      });
+
+    state.exit().remove();
+
+    var legend = d3.select("#diabeteslegend")
+      .selectAll("text")
+      .data(dataNest, function(d){return d.key});
+
+    //checkboxes
+    legend.enter().append("rect")
+      .attr("width", 10)
+      .attr("height", 10)
+      .attr("x", 0)
+      .attr("y", function (d, i) { return 0 +i*15; })  // spacing
+      .attr("fill",function(d) { 
+        return color(d.key);
+        
+      })
+      .attr("class", function(d,i){return "legendcheckbox " + d.key})
+      .on("click", function(d){
+        d.active = !d.active;
+        
+        d3.select(this).attr("fill", function(d){
+          if(d3.select(this).attr("fill")  == "#ccc"){
+            return color(d.key);
+          }else {
+            return "#ccc";
+          }
+        })
+        
+        
+       var result = dataNest.filter(function(val,idx, arr){
+         return $("." + val.key).attr("fill") != "#ccc" 
+       // matching the data with selector status
+      })
+      
+       // Hide or show the lines based on the ID
+       chart1.selectAll(".line").data(result, function(d){return d.key})
+         .enter()
+         .append("path")
+         .attr("class", "line")
+         .style("stroke", function(d,i) { return d.color = color(d.key); })
+        .attr("d", function(d){
+                return diabetesstateline(d.values);
+         });
+ 
+      chart1.selectAll(".line").data(result, function(d){return d.key}).exit().remove()  
+          
+      })
+            
+    // Add the Legend text
+    legend.enter().append("text")
+      .attr("x", 15)
+      .attr("y", function(d,i){return 10 +i*15;})
+      .attr("class", "legend");
+
+    legend.transition()
+      .style("fill", "#777" )
+      .text(function(d){return d.key;});
+
+    legend.exit().remove();
+
+    chart1.selectAll(".axis").remove();
+
+    // Add the X Axis
+    chart1.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    // Add the Y Axis
+    chart1.append("g")
+        .attr("class", "y axis")
+        .call(yAxis).text("Prevalence (%)");
+};
+
+function clearAll(){
+  d3.selectAll(".line")
+  .transition().duration(100)
+      .attr("d", function(d){
+        return null;
+      });
+  d3.select("#diabeteslegend").selectAll("rect")
+  .transition().duration(100)
+      .attr("fill", "#ccc");
+};
+
+function showAll(){
+  d3.selectAll(".line")
+  .transition().duration(100)
+      .attr("d", function(d){
+        return diabetesstateline(d.values);
+      });
+  d3.select("#diabeteslegend").selectAll("rect")
+  .attr("fill",function(d) {
+    if (d.active == true){
+       return color(d.key);
+     }
+   })
+};
+
+
+
+//obesity line chart////////////////////////////////////////////////////////
+// Set the dimensions of the canvas / graph
+var margin = {top: 50, right: 20, bottom: 30, left: 80},
+    width = 1800  - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+
+// Parse the date / time
+var parseDate = d3.time.format('%Y').parse;
+
+
+
+// Set the ranges
+var x = d3.time.scale().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(30);
+
+var yAxis = d3.svg.axis().scale(y)
+    .orient("left").ticks(15);
+
+// Define the line
+var stateline = d3.svg.line()
+    .interpolate("monotone")
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.total); });
+
+// Adds the svg canvas
+var chart1 = d3.select(".chart")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+
+var data;
+
+// Get the data
+d3.json("obesity.json", function(error, json) {
+  
+  console.log(json)
+
+  json.forEach(function(d) {
+   d.total = +d.total;
+  
+  });
+
+  d3.select('#inds')
+      .on("change", function () {
+        var sect = document.getElementById("inds");
+        var section = sect.options[sect.selectedIndex].value;
+
+        data = filterJSON(json, 'region', section);
+
+        
+        //debugger
+        
+         data.forEach(function(d) {
+          d.total = +d.total;
+          d.year = parseDate(d.year.toString());
+          d.active = true;
+    });
+        
+        //debugger
+        updateGraph(data);
+
+        jQuery('h1.page-header').html(section);
+      });
+
+  // generate initial graph
+  data = filterJSON(json, '', "");
+  updateGraph(data);
+
+
+
+});
+
+var color = d3.scale.ordinal().range(['#428bca','#f0ad4e','#5bc0de', '#d9534f', '#5cb85c']);
+
+function updateGraph(data) {
+    
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.year; }));
+    y.domain([d3.min(data, function(d) { return d.total; }), d3.max(data, function(d) { return d.total; })]);
+
+
+    // Nest the entries by state
+    dataNest = d3.nest()
+        .key(function(d) {return d.iso;})
+        .entries(data);
+
+
+    var result = dataNest.filter(function(val,idx, arr){
+          return $("." + val.key).attr("fill") != "#ccc" 
+          // matching the data with selector status
+        })
+        
+        
+    var state = chart1.selectAll(".line")
+      .data(result, function(d){return d.key});
+
+    state.enter().append("path")
+      .attr("class", "line");
+
+    state.transition()
+      .style("stroke", function(d,i) { return d.color = color(d.key); })
+      .attr("id", function(d){ return 'tag'+d.key.replace(/\s+/g, '');}) // assign ID
+      .attr("d", function(d){
+    
+        return stateline(d.values)
+      });
+
+    state.exit().remove();
+
+    var legend = d3.select("#legend")
+      .selectAll("text")
+      .data(dataNest, function(d){return d.key});
+
+    //checkboxes
+    legend.enter().append("rect")
+      .attr("width", 10)
+      .attr("height", 10)
+      .attr("x", 0)
+      .attr("y", function (d, i) { return 0 +i*15; })  // spacing
+      .attr("fill",function(d) { 
+        return color(d.key);
+        
+      })
+      .attr("class", function(d,i){return "legendcheckbox " + d.key})
+      .on("click", function(d){
+        d.active = !d.active;
+        
+        d3.select(this).attr("fill", function(d){
+          if(d3.select(this).attr("fill")  == "#ccc"){
+            return color(d.key);
+          }else {
+            return "#ccc";
+          }
+        })
+        
+        
+       var result = dataNest.filter(function(val,idx, arr){
+         return $("." + val.key).attr("fill") != "#ccc" 
+       // matching the data with selector status
+      })
+      
+       // Hide or show the lines based on the ID
+       chart1.selectAll(".line").data(result, function(d){return d.key})
+         .enter()
+         .append("path")
+         .attr("class", "line")
+         .style("stroke", function(d,i) { return d.color = color(d.key); })
+        .attr("d", function(d){
+                return stateline(d.values);
+         });
+ 
+      chart1.selectAll(".line").data(result, function(d){return d.key}).exit().remove()  
+          
+      })
+            
+    // Add the Legend text
+    legend.enter().append("text")
+      .attr("x", 15)
+      .attr("y", function(d,i){return 10 +i*15;})
+      .attr("class", "legend");
+
+    legend.transition()
+      .style("fill", "#777" )
+      .text(function(d){return d.key;});
+
+    legend.exit().remove();
+
+    chart1.selectAll(".axis").remove();
+
+    // Add the X Axis
+    chart1.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    // Add the Y Axis
+    chart1.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+        .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Prevalence (%)");
+};
+
+function clearAll(){
+  d3.selectAll(".line")
+  .transition().duration(100)
+      .attr("d", function(d){
+        return null;
+      });
+  d3.select("#legend").selectAll("rect")
+  .transition().duration(100)
+      .attr("fill", "#ccc");
+};
+
+function showAll(){
+  d3.selectAll(".line")
+  .transition().duration(100)
+      .attr("d", function(d){
+        return stateline(d.Values);
+      });
+  d3.select("#legend").selectAll("rect")
+  .attr("fill",function(d) {
+    if (d.active == true){
+       return color(d.key);
+     }
+   })
+};
+
+///////////////////////////////////////////////////////////////////////////
+
+function getCountryChecked(){
+        var checkboxes = document.getElementsByClassName('Country');
+        var checkedBoxes = [];
+
+
+    for (i = 0; i < checkboxes.length; i++) {
+
+        if (checkboxes[i].checked == true)
+
+            checkedBoxes.push(checkboxes[i].defaultValue);
+    }
+
+    return checkedBoxes;
+
+    }
+
+//function to get all checkedboxes for both male and female
+function getGenderCheckedBoxes() {
+    var genderCheckB = document.getElementsByClassName('Gender');
+    var genderCheckedB = [];
+
+    //console.log('genderCheckB', genderCheckB);
+    for (i = 0; i < genderCheckB.length; i++) {
+        if (genderCheckB[i].checked == true) {
+
+            genderCheckedB.push(genderCheckB[i].defaultValue);
+        }
+    }
+    return genderCheckedB;
+}
+
+//function to get all checkedboxes for year
+function getYearCheckedBoxes(){
+  var yearCheckB = document.getElementsByClassName('Year');
+  var yearCheckedB = []; 
+
+  for(i=0;i<yearCheckB.length;i++){
+    if(yearCheckB[i].checked==true){
+      yearCheckedB.push(yearCheckB[i].defaultValue);
+    }
+
+  }
+  console.log(yearCheckedB);
+  return yearCheckedB; 
+} 
+
+function clearSVG(){
+  d3.csv("NCD_RisC.csv",function(error, data){
+    d3.select('svg').remove();
+    radviz.render(data);
+  });
+
+}    
+
+//function for filtering using multiple data variables  e.g. gender and year
+function allFilter() {
+
+    var countries = []; 
+    countries = getCountryChecked();
+
+
+    var genders = [];
+    genders = getGenderCheckedBoxes();
+
+    var years = []; 
+    years = getYearCheckedBoxes();
+
+    //filtering based on regions that are checked
+    d3.csv("NCD_RisC_copy.csv", function(datum) {
+
+      d3.select("svg").remove();
+
+        dataset = datum.filter(function(d) {
+
+      //if year is checked and region and gender are all checked
+      if(years.indexOf(d['Year'])>-1 && genders.indexOf(d['Sex'])>-1 && countries.indexOf(d['Country'])>-1){
+          
+          return years.indexOf(d['Year'])>-1; 
+        
+        }
+      
+   }); 
+        radviz.render(dataset);
+});
+}
+
+function clearVis(){
+  location.reload();
+}
+
+</script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  </body>
+</html>

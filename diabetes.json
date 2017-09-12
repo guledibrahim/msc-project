@@ -1,0 +1,3152 @@
+[
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1980,
+   "m": 0.046596749,
+   "f": 0.043209435,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1981,
+   "m": 0.047243754,
+   "f": 0.043492911,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1982,
+   "m": 0.047963594,
+   "f": 0.043835375,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1983,
+   "m": 0.048793404,
+   "f": 0.044254559,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1984,
+   "m": 0.049725563,
+   "f": 0.044770935,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1985,
+   "m": 0.05075073,
+   "f": 0.045342138,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1986,
+   "m": 0.051837826,
+   "f": 0.04596105,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1987,
+   "m": 0.052975321,
+   "f": 0.046607352,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1988,
+   "m": 0.054166088,
+   "f": 0.047282059,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1989,
+   "m": 0.05541876,
+   "f": 0.048000472,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1990,
+   "m": 0.056699552,
+   "f": 0.04873834,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1991,
+   "m": 0.058035132,
+   "f": 0.049512641,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1992,
+   "m": 0.059406382,
+   "f": 0.050313103,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1993,
+   "m": 0.060801729,
+   "f": 0.051133153,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1994,
+   "m": 0.062224296,
+   "f": 0.051986014,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1995,
+   "m": 0.063644935,
+   "f": 0.052860272,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1996,
+   "m": 0.065073424,
+   "f": 0.05374673,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1997,
+   "m": 0.06644578,
+   "f": 0.054618061,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1998,
+   "m": 0.067797662,
+   "f": 0.055485641,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 1999,
+   "m": 0.069118784,
+   "f": 0.056343188,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2000,
+   "m": 0.070364508,
+   "f": 0.057158949,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2001,
+   "m": 0.071537811,
+   "f": 0.057915741,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2002,
+   "m": 0.072625193,
+   "f": 0.05857671,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2003,
+   "m": 0.073639687,
+   "f": 0.059168026,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2004,
+   "m": 0.074584509,
+   "f": 0.059691196,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2005,
+   "m": 0.075481783,
+   "f": 0.060157547,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2006,
+   "m": 0.076343836,
+   "f": 0.060590028,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2007,
+   "m": 0.077101393,
+   "f": 0.060997458,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2008,
+   "m": 0.077762653,
+   "f": 0.061385363,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2009,
+   "m": 0.078360729,
+   "f": 0.061780509,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2010,
+   "m": 0.078955087,
+   "f": 0.062226214,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2011,
+   "m": 0.079658472,
+   "f": 0.062761677,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2012,
+   "m": 0.080307043,
+   "f": 0.063248376,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2013,
+   "m": 0.080987421,
+   "f": 0.063775682,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "North America",
+   "iso": "USA",
+   "year": 2014,
+   "m": 0.081696543,
+   "f": 0.064363376,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1980,
+   "m": 0.050251596,
+   "f": 0.040264212,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1981,
+   "m": 0.050434765,
+   "f": 0.040426452,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1982,
+   "m": 0.050621425,
+   "f": 0.04061444,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1983,
+   "m": 0.050923482,
+   "f": 0.040869989,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1984,
+   "m": 0.05131336,
+   "f": 0.04120685,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1985,
+   "m": 0.051786605,
+   "f": 0.041602732,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1986,
+   "m": 0.052301334,
+   "f": 0.042016709,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1987,
+   "m": 0.052856122,
+   "f": 0.042450044,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1988,
+   "m": 0.053503174,
+   "f": 0.042924932,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1989,
+   "m": 0.054236701,
+   "f": 0.043428404,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1990,
+   "m": 0.055022528,
+   "f": 0.043926278,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1991,
+   "m": 0.055774517,
+   "f": 0.04438635,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1992,
+   "m": 0.056476618,
+   "f": 0.044812835,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1993,
+   "m": 0.057148338,
+   "f": 0.045231933,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1994,
+   "m": 0.057773802,
+   "f": 0.045637009,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1995,
+   "m": 0.058372306,
+   "f": 0.046019956,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1996,
+   "m": 0.058944557,
+   "f": 0.046376101,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1997,
+   "m": 0.059454538,
+   "f": 0.046706161,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1998,
+   "m": 0.059923662,
+   "f": 0.046995711,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 1999,
+   "m": 0.060352212,
+   "f": 0.047251427,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2000,
+   "m": 0.060748027,
+   "f": 0.047470968,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2001,
+   "m": 0.061098055,
+   "f": 0.047638577,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2002,
+   "m": 0.061428229,
+   "f": 0.047762842,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2003,
+   "m": 0.061715587,
+   "f": 0.047823389,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2004,
+   "m": 0.061975428,
+   "f": 0.047857052,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2005,
+   "m": 0.062178333,
+   "f": 0.047848956,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2006,
+   "m": 0.062348034,
+   "f": 0.047829804,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2007,
+   "m": 0.062434718,
+   "f": 0.047783774,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2008,
+   "m": 0.062458226,
+   "f": 0.04772451,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2009,
+   "m": 0.062410432,
+   "f": 0.047642169,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2010,
+   "m": 0.062311262,
+   "f": 0.047574866,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2011,
+   "m": 0.062163964,
+   "f": 0.047493311,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2012,
+   "m": 0.062153589,
+   "f": 0.04748678,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2013,
+   "m": 0.062198648,
+   "f": 0.047523639,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "North America",
+   "iso": "CAN",
+   "year": 2014,
+   "m": 0.062295715,
+   "f": 0.047614839,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1980,
+   "m": 0.064703647,
+   "f": 0.064895779,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1981,
+   "m": 0.065832715,
+   "f": 0.066030741,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1982,
+   "m": 0.06687254,
+   "f": 0.06712937,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1983,
+   "m": 0.067830682,
+   "f": 0.068168479,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1984,
+   "m": 0.068927167,
+   "f": 0.069326797,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1985,
+   "m": 0.070065723,
+   "f": 0.070548825,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1986,
+   "m": 0.071168659,
+   "f": 0.071757824,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1987,
+   "m": 0.072368847,
+   "f": 0.073068979,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1988,
+   "m": 0.073695828,
+   "f": 0.074500918,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1989,
+   "m": 0.07525914,
+   "f": 0.076134855,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1990,
+   "m": 0.076973265,
+   "f": 0.077918091,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1991,
+   "m": 0.078737999,
+   "f": 0.079798419,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1992,
+   "m": 0.080577018,
+   "f": 0.081736426,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1993,
+   "m": 0.082424299,
+   "f": 0.083721222,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1994,
+   "m": 0.084292332,
+   "f": 0.085688484,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1995,
+   "m": 0.086001475,
+   "f": 0.087513021,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1996,
+   "m": 0.087625627,
+   "f": 0.089295672,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1997,
+   "m": 0.089177032,
+   "f": 0.091038993,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1998,
+   "m": 0.090647565,
+   "f": 0.092748242,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 1999,
+   "m": 0.092057373,
+   "f": 0.094395369,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2000,
+   "m": 0.093483145,
+   "f": 0.096027915,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2001,
+   "m": 0.094828365,
+   "f": 0.097552238,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2002,
+   "m": 0.096095965,
+   "f": 0.09901311,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2003,
+   "m": 0.097278423,
+   "f": 0.100379783,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2004,
+   "m": 0.098422046,
+   "f": 0.101725935,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2005,
+   "m": 0.099531248,
+   "f": 0.103047362,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2006,
+   "m": 0.100591705,
+   "f": 0.104350397,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2007,
+   "m": 0.101597209,
+   "f": 0.105593395,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2008,
+   "m": 0.102531264,
+   "f": 0.106836832,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2009,
+   "m": 0.103375467,
+   "f": 0.108034553,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2010,
+   "m": 0.104305502,
+   "f": 0.109338134,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2011,
+   "m": 0.105372027,
+   "f": 0.110799245,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2012,
+   "m": 0.106432911,
+   "f": 0.11223799,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2013,
+   "m": 0.107524665,
+   "f": 0.113734563,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "MEX",
+   "year": 2014,
+   "m": 0.10869791,
+   "f": 0.115297297,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1980,
+   "m": 0.04232806,
+   "f": 0.044024882,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1981,
+   "m": 0.04340301,
+   "f": 0.044875749,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1982,
+   "m": 0.044481912,
+   "f": 0.045738081,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1983,
+   "m": 0.045621765,
+   "f": 0.04669484,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1984,
+   "m": 0.046814062,
+   "f": 0.04775512,
+   "prevalence": 0.09,
+   "total": 9
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1985,
+   "m": 0.048026238,
+   "f": 0.048848297,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1986,
+   "m": 0.049320014,
+   "f": 0.050044468,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1987,
+   "m": 0.050651504,
+   "f": 0.051315365,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1988,
+   "m": 0.052041717,
+   "f": 0.052665158,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1989,
+   "m": 0.053373637,
+   "f": 0.054026158,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1990,
+   "m": 0.054676201,
+   "f": 0.055377286,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1991,
+   "m": 0.055959101,
+   "f": 0.056720477,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1992,
+   "m": 0.057248624,
+   "f": 0.058074413,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1993,
+   "m": 0.058596013,
+   "f": 0.059432007,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1994,
+   "m": 0.060013982,
+   "f": 0.060829315,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1995,
+   "m": 0.061565946,
+   "f": 0.062323629,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1996,
+   "m": 0.063209376,
+   "f": 0.06386091,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1997,
+   "m": 0.06494507,
+   "f": 0.065468389,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1998,
+   "m": 0.066772534,
+   "f": 0.067161527,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 1999,
+   "m": 0.068572112,
+   "f": 0.068841842,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2000,
+   "m": 0.070284558,
+   "f": 0.070437901,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2001,
+   "m": 0.071859882,
+   "f": 0.071913928,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2002,
+   "m": 0.073325193,
+   "f": 0.073310288,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2003,
+   "m": 0.074767365,
+   "f": 0.074687248,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2004,
+   "m": 0.07620211,
+   "f": 0.076064546,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2005,
+   "m": 0.077529454,
+   "f": 0.077389851,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2006,
+   "m": 0.078712881,
+   "f": 0.078634519,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2007,
+   "m": 0.079921829,
+   "f": 0.079886071,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2008,
+   "m": 0.081132618,
+   "f": 0.081162067,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2009,
+   "m": 0.082343359,
+   "f": 0.082426499,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2010,
+   "m": 0.083589605,
+   "f": 0.083749108,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2011,
+   "m": 0.08482978,
+   "f": 0.08510105,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2012,
+   "m": 0.086039034,
+   "f": 0.086446026,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2013,
+   "m": 0.087246869,
+   "f": 0.087787539,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Central Latin America",
+   "iso": "CRI",
+   "year": 2014,
+   "m": 0.088486617,
+   "f": 0.089133927,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1980,
+   "m": 0.106121244,
+   "f": 0.112425219,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1981,
+   "m": 0.106524009,
+   "f": 0.112568588,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1982,
+   "m": 0.107048815,
+   "f": 0.112842778,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1983,
+   "m": 0.10766514,
+   "f": 0.113163042,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1984,
+   "m": 0.108330429,
+   "f": 0.113516749,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1985,
+   "m": 0.109050776,
+   "f": 0.113884936,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1986,
+   "m": 0.109796286,
+   "f": 0.114349093,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1987,
+   "m": 0.110580145,
+   "f": 0.114960326,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1988,
+   "m": 0.111334486,
+   "f": 0.115556442,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1989,
+   "m": 0.111998046,
+   "f": 0.11609706,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1990,
+   "m": 0.112546609,
+   "f": 0.116615863,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1991,
+   "m": 0.11296451,
+   "f": 0.117114749,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1992,
+   "m": 0.113268464,
+   "f": 0.117571311,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1993,
+   "m": 0.113520653,
+   "f": 0.118029886,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1994,
+   "m": 0.113748303,
+   "f": 0.118555427,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1995,
+   "m": 0.113780738,
+   "f": 0.11905911,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1996,
+   "m": 0.113718808,
+   "f": 0.119556798,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1997,
+   "m": 0.113762057,
+   "f": 0.120179514,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1998,
+   "m": 0.113914579,
+   "f": 0.120924378,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 1999,
+   "m": 0.114246653,
+   "f": 0.121900058,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2000,
+   "m": 0.114806146,
+   "f": 0.123106991,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2001,
+   "m": 0.115690616,
+   "f": 0.124561658,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2002,
+   "m": 0.116947226,
+   "f": 0.126358714,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2003,
+   "m": 0.1184634,
+   "f": 0.128387744,
+   "prevalence": 0.25,
+   "total": 25
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2004,
+   "m": 0.120234819,
+   "f": 0.130629678,
+   "prevalence": 0.25,
+   "total": 25
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2005,
+   "m": 0.122238458,
+   "f": 0.133059477,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2006,
+   "m": 0.124365383,
+   "f": 0.135564557,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2007,
+   "m": 0.126603298,
+   "f": 0.138069577,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2008,
+   "m": 0.128779988,
+   "f": 0.14043537,
+   "prevalence": 0.27,
+   "total": 27
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2009,
+   "m": 0.130881929,
+   "f": 0.142658606,
+   "prevalence": 0.27,
+   "total": 27
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2010,
+   "m": 0.132926746,
+   "f": 0.144822472,
+   "prevalence": 0.28,
+   "total": 28
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2011,
+   "m": 0.135053812,
+   "f": 0.147000431,
+   "prevalence": 0.28,
+   "total": 28
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2012,
+   "m": 0.137368165,
+   "f": 0.14935596,
+   "prevalence": 0.29,
+   "total": 29
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2013,
+   "m": 0.139724269,
+   "f": 0.151797388,
+   "prevalence": 0.29,
+   "total": 29
+ },
+ {
+   "region": "Caribbean",
+   "iso": "BMU",
+   "year": 2014,
+   "m": 0.142209391,
+   "f": 0.154304971,
+   "prevalence": 0.3,
+   "total": 30
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1980,
+   "m": 0.068168459,
+   "f": 0.072999401,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1981,
+   "m": 0.070267392,
+   "f": 0.074752337,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1982,
+   "m": 0.07272653,
+   "f": 0.076797541,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1983,
+   "m": 0.075545522,
+   "f": 0.079136849,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1984,
+   "m": 0.078737498,
+   "f": 0.081817345,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1985,
+   "m": 0.082213896,
+   "f": 0.084725368,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1986,
+   "m": 0.08569436,
+   "f": 0.087652909,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1987,
+   "m": 0.08907286,
+   "f": 0.09049457,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1988,
+   "m": 0.092366166,
+   "f": 0.093273519,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1989,
+   "m": 0.095527345,
+   "f": 0.095983778,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1990,
+   "m": 0.098551524,
+   "f": 0.098625824,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1991,
+   "m": 0.10112207,
+   "f": 0.100919474,
+   "prevalence": 0.2,
+   "total": 20
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1992,
+   "m": 0.103344174,
+   "f": 0.102952527,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1993,
+   "m": 0.105288721,
+   "f": 0.104767385,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1994,
+   "m": 0.107063782,
+   "f": 0.106411241,
+   "prevalence": 0.21,
+   "total": 21
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1995,
+   "m": 0.108713314,
+   "f": 0.107960164,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1996,
+   "m": 0.110257529,
+   "f": 0.1094398,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1997,
+   "m": 0.111712986,
+   "f": 0.110876415,
+   "prevalence": 0.22,
+   "total": 22
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1998,
+   "m": 0.113172553,
+   "f": 0.112333256,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 1999,
+   "m": 0.114555273,
+   "f": 0.113794667,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2000,
+   "m": 0.115902294,
+   "f": 0.115258806,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2001,
+   "m": 0.117293254,
+   "f": 0.116769841,
+   "prevalence": 0.23,
+   "total": 23
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2002,
+   "m": 0.11866833,
+   "f": 0.11827873,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2003,
+   "m": 0.11997148,
+   "f": 0.119721933,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2004,
+   "m": 0.121186166,
+   "f": 0.121127418,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2005,
+   "m": 0.122308162,
+   "f": 0.122492704,
+   "prevalence": 0.24,
+   "total": 24
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2006,
+   "m": 0.123293359,
+   "f": 0.123822305,
+   "prevalence": 0.25,
+   "total": 25
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2007,
+   "m": 0.124172131,
+   "f": 0.125087227,
+   "prevalence": 0.25,
+   "total": 25
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2008,
+   "m": 0.124958084,
+   "f": 0.126302123,
+   "prevalence": 0.25,
+   "total": 25
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2009,
+   "m": 0.125687012,
+   "f": 0.127498056,
+   "prevalence": 0.25,
+   "total": 25
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2010,
+   "m": 0.126425177,
+   "f": 0.128700394,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2011,
+   "m": 0.127183875,
+   "f": 0.129937581,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2012,
+   "m": 0.127975534,
+   "f": 0.131224032,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2013,
+   "m": 0.128833735,
+   "f": 0.132603106,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Caribbean",
+   "iso": "PRI",
+   "year": 2014,
+   "m": 0.129867,
+   "f": 0.134128964,
+   "prevalence": 0.26,
+   "total": 26
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1980,
+   "m": 0.070193129,
+   "f": 0.068727819,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1981,
+   "m": 0.071129008,
+   "f": 0.069231347,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1982,
+   "m": 0.072034834,
+   "f": 0.069735967,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1983,
+   "m": 0.072925302,
+   "f": 0.070247565,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1984,
+   "m": 0.073850898,
+   "f": 0.070821027,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1985,
+   "m": 0.074816391,
+   "f": 0.071444688,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1986,
+   "m": 0.075895991,
+   "f": 0.072203322,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1987,
+   "m": 0.077089471,
+   "f": 0.073068319,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1988,
+   "m": 0.078336812,
+   "f": 0.074009478,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1989,
+   "m": 0.079531258,
+   "f": 0.074940687,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1990,
+   "m": 0.080771413,
+   "f": 0.075957786,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1991,
+   "m": 0.082032732,
+   "f": 0.077048284,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1992,
+   "m": 0.083282572,
+   "f": 0.078118778,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1993,
+   "m": 0.084483942,
+   "f": 0.079129724,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1994,
+   "m": 0.085658024,
+   "f": 0.080077364,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1995,
+   "m": 0.086836446,
+   "f": 0.081016134,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1996,
+   "m": 0.087988139,
+   "f": 0.081883723,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1997,
+   "m": 0.089153633,
+   "f": 0.082728123,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1998,
+   "m": 0.090264555,
+   "f": 0.083493241,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 1999,
+   "m": 0.09119014,
+   "f": 0.084107767,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2000,
+   "m": 0.09199775,
+   "f": 0.084597444,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2001,
+   "m": 0.09270655,
+   "f": 0.08498112,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2002,
+   "m": 0.093273336,
+   "f": 0.085259835,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2003,
+   "m": 0.093681891,
+   "f": 0.085411949,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2004,
+   "m": 0.094207126,
+   "f": 0.085689962,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2005,
+   "m": 0.094800246,
+   "f": 0.086033658,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2006,
+   "m": 0.095446661,
+   "f": 0.086438651,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2007,
+   "m": 0.09609615,
+   "f": 0.086829759,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2008,
+   "m": 0.096678844,
+   "f": 0.087228478,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2009,
+   "m": 0.097132987,
+   "f": 0.08757522,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2010,
+   "m": 0.097469803,
+   "f": 0.087896321,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2011,
+   "m": 0.09780677,
+   "f": 0.088233985,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2012,
+   "m": 0.098328382,
+   "f": 0.088727964,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2013,
+   "m": 0.098852903,
+   "f": 0.089250286,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "VEN",
+   "year": 2014,
+   "m": 0.099360777,
+   "f": 0.089778599,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1980,
+   "m": 0.044101801,
+   "f": 0.055637424,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1981,
+   "m": 0.044819725,
+   "f": 0.056407971,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1982,
+   "m": 0.04561442,
+   "f": 0.057254592,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1983,
+   "m": 0.046446161,
+   "f": 0.058136975,
+   "prevalence": 0.1,
+   "total": 10
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1984,
+   "m": 0.047377717,
+   "f": 0.05910991,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1985,
+   "m": 0.048389928,
+   "f": 0.060144222,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1986,
+   "m": 0.049463553,
+   "f": 0.061235886,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1987,
+   "m": 0.050563771,
+   "f": 0.06236676,
+   "prevalence": 0.11,
+   "total": 11
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1988,
+   "m": 0.051696034,
+   "f": 0.063510542,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1989,
+   "m": 0.052855301,
+   "f": 0.064664832,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1990,
+   "m": 0.05407095,
+   "f": 0.065837217,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1991,
+   "m": 0.055294316,
+   "f": 0.066998517,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1992,
+   "m": 0.05651655,
+   "f": 0.06813199,
+   "prevalence": 0.12,
+   "total": 12
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1993,
+   "m": 0.057735946,
+   "f": 0.069210696,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1994,
+   "m": 0.059001813,
+   "f": 0.07027335,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1995,
+   "m": 0.060295124,
+   "f": 0.071313006,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1996,
+   "m": 0.061597309,
+   "f": 0.072323186,
+   "prevalence": 0.13,
+   "total": 13
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1997,
+   "m": 0.062910453,
+   "f": 0.073318619,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1998,
+   "m": 0.064230502,
+   "f": 0.074300008,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 1999,
+   "m": 0.065495623,
+   "f": 0.0752054,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2000,
+   "m": 0.066758122,
+   "f": 0.076088989,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2001,
+   "m": 0.067967134,
+   "f": 0.076918032,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2002,
+   "m": 0.069138451,
+   "f": 0.07772337,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2003,
+   "m": 0.070290718,
+   "f": 0.078500336,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2004,
+   "m": 0.07144526,
+   "f": 0.079272306,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2005,
+   "m": 0.072587608,
+   "f": 0.080029357,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2006,
+   "m": 0.073711222,
+   "f": 0.080774992,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2007,
+   "m": 0.074835396,
+   "f": 0.081498111,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2008,
+   "m": 0.075945511,
+   "f": 0.082204965,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2009,
+   "m": 0.07707376,
+   "f": 0.082913803,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2010,
+   "m": 0.078193457,
+   "f": 0.083639661,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2011,
+   "m": 0.07936829,
+   "f": 0.084428033,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2012,
+   "m": 0.080626743,
+   "f": 0.08526929,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2013,
+   "m": 0.081913406,
+   "f": 0.086150522,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Andean Latin America",
+   "iso": "COL",
+   "year": 2014,
+   "m": 0.083281758,
+   "f": 0.087073733,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1980,
+   "m": 0.074214968,
+   "f": 0.06139308,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1981,
+   "m": 0.074596619,
+   "f": 0.061734212,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1982,
+   "m": 0.07501722,
+   "f": 0.062105407,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1983,
+   "m": 0.0755174,
+   "f": 0.062581509,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1984,
+   "m": 0.076118139,
+   "f": 0.063161189,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1985,
+   "m": 0.076728234,
+   "f": 0.063741592,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1986,
+   "m": 0.077415784,
+   "f": 0.064441521,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1987,
+   "m": 0.078136753,
+   "f": 0.065205616,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1988,
+   "m": 0.078806586,
+   "f": 0.06598507,
+   "prevalence": 0.14,
+   "total": 14
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1989,
+   "m": 0.079433621,
+   "f": 0.066749473,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1990,
+   "m": 0.080101141,
+   "f": 0.067572455,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1991,
+   "m": 0.080835798,
+   "f": 0.068483954,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1992,
+   "m": 0.081613617,
+   "f": 0.069459361,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1993,
+   "m": 0.0824004,
+   "f": 0.07042732,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1994,
+   "m": 0.083172506,
+   "f": 0.071356871,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1995,
+   "m": 0.083887591,
+   "f": 0.072229537,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1996,
+   "m": 0.084614742,
+   "f": 0.073121071,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1997,
+   "m": 0.085376987,
+   "f": 0.074045771,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1998,
+   "m": 0.086154518,
+   "f": 0.074964786,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 1999,
+   "m": 0.086844137,
+   "f": 0.075810418,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2000,
+   "m": 0.087485659,
+   "f": 0.07663212,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2001,
+   "m": 0.088005355,
+   "f": 0.077394682,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2002,
+   "m": 0.088352362,
+   "f": 0.078131359,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2003,
+   "m": 0.088812628,
+   "f": 0.079013107,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2004,
+   "m": 0.089367432,
+   "f": 0.080043218,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2005,
+   "m": 0.090042621,
+   "f": 0.081222196,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2006,
+   "m": 0.090784885,
+   "f": 0.082486548,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2007,
+   "m": 0.091647413,
+   "f": 0.08384633,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2008,
+   "m": 0.092541088,
+   "f": 0.085243123,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2009,
+   "m": 0.093431475,
+   "f": 0.086658969,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2010,
+   "m": 0.094430586,
+   "f": 0.088163657,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2011,
+   "m": 0.095549893,
+   "f": 0.089730457,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2012,
+   "m": 0.096643903,
+   "f": 0.091335634,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2013,
+   "m": 0.097733546,
+   "f": 0.092969031,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "ARG",
+   "year": 2014,
+   "m": 0.098786283,
+   "f": 0.094600896,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1980,
+   "m": 0.075101244,
+   "f": 0.072705333,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1981,
+   "m": 0.07528557,
+   "f": 0.073025661,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1982,
+   "m": 0.075429932,
+   "f": 0.073236987,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1983,
+   "m": 0.075497543,
+   "f": 0.073383814,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1984,
+   "m": 0.075566945,
+   "f": 0.073535438,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1985,
+   "m": 0.075678357,
+   "f": 0.073732443,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1986,
+   "m": 0.075871152,
+   "f": 0.07405523,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1987,
+   "m": 0.076133683,
+   "f": 0.07444545,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1988,
+   "m": 0.076431723,
+   "f": 0.07487192,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1989,
+   "m": 0.076775255,
+   "f": 0.075332773,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1990,
+   "m": 0.077162517,
+   "f": 0.07583026,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1991,
+   "m": 0.07759786,
+   "f": 0.076374752,
+   "prevalence": 0.15,
+   "total": 15
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1992,
+   "m": 0.078073135,
+   "f": 0.076957688,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1993,
+   "m": 0.078618518,
+   "f": 0.077550616,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1994,
+   "m": 0.079237835,
+   "f": 0.078137712,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1995,
+   "m": 0.079850466,
+   "f": 0.078689353,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1996,
+   "m": 0.080458325,
+   "f": 0.079208217,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1997,
+   "m": 0.081080425,
+   "f": 0.079754502,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1998,
+   "m": 0.081740874,
+   "f": 0.080331598,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 1999,
+   "m": 0.082349723,
+   "f": 0.080889904,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2000,
+   "m": 0.082946983,
+   "f": 0.081456898,
+   "prevalence": 0.16,
+   "total": 16
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2001,
+   "m": 0.083430469,
+   "f": 0.081995291,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2002,
+   "m": 0.083807112,
+   "f": 0.082599312,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2003,
+   "m": 0.084127856,
+   "f": 0.083286744,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2004,
+   "m": 0.084475163,
+   "f": 0.08410407,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2005,
+   "m": 0.084879327,
+   "f": 0.085065801,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2006,
+   "m": 0.085300098,
+   "f": 0.086149029,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2007,
+   "m": 0.085754245,
+   "f": 0.087331297,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2008,
+   "m": 0.086326517,
+   "f": 0.08864719,
+   "prevalence": 0.17,
+   "total": 17
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2009,
+   "m": 0.086962939,
+   "f": 0.090032697,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2010,
+   "m": 0.087699369,
+   "f": 0.091457803,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2011,
+   "m": 0.088555615,
+   "f": 0.092914459,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2012,
+   "m": 0.089449974,
+   "f": 0.094510614,
+   "prevalence": 0.18,
+   "total": 18
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2013,
+   "m": 0.090396168,
+   "f": 0.096148041,
+   "prevalence": 0.19,
+   "total": 19
+ },
+ {
+   "region": "Southern Latin America",
+   "iso": "URU",
+   "year": 2014,
+   "m": 0.091377699,
+   "f": 0.097827532,
+   "prevalence": 0.19,
+   "total": 19
+ }
+]
