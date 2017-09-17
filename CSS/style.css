@@ -1,0 +1,161 @@
+
+.panel {
+    stroke: black;
+    fill: white;
+}
+
+.bg {
+    fill: white;
+    padding: 0;
+}
+
+#title{
+    background-color: grey;
+}
+.link {
+    stroke: silver;
+    stroke-opacity: 0.05
+}
+
+.dot {
+    fill-opacity: 0.5;
+}
+
+.label-node {
+    fill: silver;
+}
+
+.active {
+    stroke: black;
+}
+
+.label {
+    fill: gray;
+    pointer-events: none;
+}
+
+#tooltip {
+    font-size: 12px;
+    margin-top: 22px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+}
+
+#tooltip h1 {
+    font-size: 10px;
+    margin: 0;
+}
+
+.container svg{
+
+  fill: none
+}
+
+svg .bg{
+  fill: none
+}
+
+#legendContainer{
+  position:absolute;
+  top:70px;
+  left:90px;
+  overflow: auto;
+  height:490px;
+  width:110px;
+}
+
+#legend{
+  width:90px;
+  height:200px;
+}
+.legend {
+    font-size: 12px;
+    font-weight: normal;
+    text-anchor: left;
+    padding-bottom: 10px;
+}
+.legendcheckbox{
+  cursor: pointer;
+}
+#showAll{
+  
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 70px;
+  margin-left: 10px;
+}
+#clearAll{
+  
+  float:right;
+
+}
+input{
+  border-radius:5px;
+  padding:5px 10px;
+  background:#999;
+  border:0;
+  color:#fff;
+}
+#inds{
+  position:absolute;
+  top:10px;
+  left:80px;
+}
+
+.chart{
+  top: 500px;
+}
+
+.item {
+    border: 2px solid white;
+    background-color: skyblue;
+    opacity: 0.8;
+    overflow: visible;
+    padding: 6px 0;
+    white-space: nowrap;
+}
+
+.list-container {
+    padding-top: 50px;
+}
+.state {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+
+
+
+ 
+
+
