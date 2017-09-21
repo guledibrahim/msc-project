@@ -319,7 +319,7 @@ var renderList = function(datum) {
               }
           })
           .text(function(d) {
-              return d + ': ' + d3.format('%')(datum["Obesity","RBP","Diabetes"]);
+              return d + ': ' + d3.format('%')(datum[d]);
               //console.log(datum['Obesity']);
           });
       
